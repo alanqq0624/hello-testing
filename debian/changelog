@@ -1,3 +1,9 @@
+hello (2.10-1ubuntu1) UNRELEASED; urgency=medium
+
+  * Test for echoing from postinst 
+
+ -- Hsieh, Da-Yung <alanqq0624@hotmail.com>  Sat, 03 Jun 2023 14:40:38 +0800
+
 hello (2.10-1build3) bionic-security; urgency=medium
 
   * No-change rebuild for testing purposes.
