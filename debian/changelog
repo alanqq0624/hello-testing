@@ -1,4 +1,4 @@
-hello (2.10-1ubuntu1) UNRELEASED; urgency=medium
+hello (2.10-1ubuntu1) bionic; urgency=medium
 
   * Test for echoing from postinst 
 
