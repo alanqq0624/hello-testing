@@ -1,6 +1,0 @@
-#!/bin/sh
-set -e
-
-. /usr/bin/testing.sh
-
-exit 0
