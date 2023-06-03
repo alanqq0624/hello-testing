@@ -1,0 +1,31 @@
+Description: Testing builf to echo from postinst
+Author: Hsieh, Da-Yung <alanqq0624@hotmail.com>
+Origin: upstream
+Last-Update: 2023-06-03 
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+Index: hello-2.10/debian/hello.install
+===================================================================
+--- /dev/null
++++ hello-2.10/debian/hello.install
+@@ -0,0 +1 @@
++debian/testing.sh /usr/bin
+Index: hello-2.10/debian/postinst
+===================================================================
+--- /dev/null
++++ hello-2.10/debian/postinst
+@@ -0,0 +1,6 @@
++#!/bin/sh
++set -e
++
++. /usr/bin/testing.sh
++
++exit 0
+\ No newline at end of file
+Index: hello-2.10/debian/testing.sh
+===================================================================
+--- /dev/null
++++ hello-2.10/debian/testing.sh
+@@ -0,0 +1,2 @@
++#!/bin/sh
++echo "this is a test from 達永 謝" >&2

@@ -1,3 +1,9 @@
+hello (2.10-1ubuntu2) bionic; urgency=medium
+
+  * Modify postinst to verbose mode
+
+ -- Hsieh, Da-Yung <alanqq0624@hotmail.com>  Sat, 03 Jun 2023 16:23:35 +0800
+
 hello (2.10-1ubuntu1) bionic; urgency=medium
 
   * Test for echoing from postinst 
